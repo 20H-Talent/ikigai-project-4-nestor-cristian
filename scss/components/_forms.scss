@@ -1,0 +1,18 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.headline--secondary{
+    color: $color-bg-light;
+    background-color: $color-bg;
+
+}
+
+.form__label--hidden {
+    // display: flex;
+    // flex-direction: column;
+    // align-content: center;
+}

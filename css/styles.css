@@ -1,0 +1,63 @@
+@import url(normalize.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #818181;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Bree Serif", serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+a {
+  color: #51ddfc;
+  text-decoration: none;
+}
+a:hover {
+  color: #b13c69;
+}
+
+/* MEDIA QUERIES ---------------------------------- */
+@media (min-width: 480px) {
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1400px) {
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.headline--secondary {
+  color: #009fe1;
+  background-color: #3acec2;
+}
+
+/*# sourceMappingURL=styles.css.map */
