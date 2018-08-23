@@ -1,0 +1,9 @@
+// Colors
+@mixin themes($map) {
+    @each $theme, $color in $map {
+      &--#{$theme} {
+        background-color: $color;
+      }
+    } 
+}
+
