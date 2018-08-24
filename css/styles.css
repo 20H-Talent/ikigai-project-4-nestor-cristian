@@ -1,102 +1,36 @@
-@import url(normalize.css);
-* {
-  box-sizing: border-box;
-}
+/*
+Error: Invalid CSS after ">>>>>>> master": expected "{", was ""
+        on line 9 of /Users/cristiandavid/curso/ikigai-project-4-nestor-cristian/scss/styles.scss
 
-body {
-  color: #818181;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  height: auto;
-  width: 100%;
-  margin: 1rem;
-  padding: 1rem;
-}
+4: <<<<<<< HEAD
+5: 
+6: // rama cristian
+7: =======
+8: >>>>>>> master
 
-h1,
-h2 {
-  font-family: "Raleway", sans-serif;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  margin-bottom: 1.25em;
-}
-
-a {
-  color: #51ddfc;
-  text-decoration: none;
-}
-a:hover {
-  color: #51ddfc;
-}
-
-/* MEDIA QUERIES ---------------------------------- */
-.btn--default {
-  background-color: #51ddfc;
-}
-.btn--s success {
-  background-color: #63cc82;
-}
-.btn--error {
-  background-color: #e4757a;
-}
-.btn--warning {
-  background-color: #fd7856;
-}
-.btn--info {
-  background-color: #927bc1;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  align-items: center;
-}
-
-.form__input {
-  background-color: #58e1c1;
-  width: 80%;
-}
-
-.form__label--hidden {
-  margin-top: 1rem;
-}
-
-.form .btn--default {
-  margin-top: 1rem;
-  padding: 0.75em 1.5em;
-  border-radius: 0.35em;
-  width: 90%;
-}
-
-.img--avatar {
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
-  margin-top: 1rem;
-}
-.img--frame {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: auto;
-  width: 100%;
-  margin: 0;
-  padding: 1rem;
-  border: 2px solid black;
-}
-
-/*# sourceMappingURL=styles.css.map */
+Backtrace:
+/Users/cristiandavid/curso/ikigai-project-4-nestor-cristian/scss/styles.scss:9
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \">>>>>>> master\": expected \"{\", was \"\"\A         on line 9 of /Users/cristiandavid/curso/ikigai-project-4-nestor-cristian/scss/styles.scss\A \A 4: <<<<<<< HEAD\A 5: \A 6: // rama cristian\A 7: =======\A 8: >>>>>>> master"; }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // ======================================
 //  Mixins
 // ======================================
@@ -12,12 +13,20 @@
 }
 
 // Create a flex container
+=======
+
+//Create a Flex Container
+>>>>>>> master
 @mixin flexy(
   $disp: flex,
   $dir: null,
   $wrap: null,
   $just: null,
+<<<<<<< HEAD
   $ali:null) {
+=======
+  $ali: null) {
+>>>>>>> master
   display: $disp;
   flex-direction: $dir;
   flex-wrap: $wrap;
@@ -25,10 +34,44 @@
   align-items: $ali;
 }
 
+<<<<<<< HEAD
 // Rounded elements
 @mixin roundy($dim, $brdr: null) {
   width: $dim;
   height: $dim;
   border: $brdr;
   border-radius: 50%;
+=======
+//Rounded elements
+@mixin roundy($dim, $brdr:null) {
+    width: $dim;
+    height: $dim;
+    border: $brdr;
+    border-radius: 50%;
+}
+
+//Layout
+@mixin layout {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+//Style buttons and grids
+@mixin style-box {
+    padding: 15px 10px;
+    border: none;
+    border-radius: 4px;
+    resize: none; /* Text area only */
+}
+
+//Background buttons and grids
+@mixin btn-color($map) {
+    @each $theme, $color in $map {
+        &--#{$theme} {
+            background-color: $color;
+            @include style-box;
+        }
+    } 
+>>>>>>> master
 }
