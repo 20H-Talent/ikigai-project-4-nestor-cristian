@@ -41,17 +41,23 @@
 
  /* MEDIA QUERIES ---------------------------------- */
 
- @media (min-width: 480px) {
-  .main-content {
-    display: flex;
-    flex-wrap: wrap;
-  }  
+//  @media (min-width: 480px) {
+//   .main-content {
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: wrap;
+//     align-content: center;
+//     justify-content: center;
+//   }  
   
-}
+// }
 
-@media (min-width: 1400px) {
-  .main-content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
+// @media (min-width: 1400px) {
+//   .main-content {
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: wrap;
+//     align-content: center;
+//     justify-content: center;
+//   }
+// }

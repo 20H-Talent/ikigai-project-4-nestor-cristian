@@ -1,18 +1,3 @@
 .form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.headline--secondary{
-    color: $color-primary;
-    background-color: $white;
-
-}
-
-.form__label--hidden {
-    // display: flex;
-    // flex-direction: column;
-    // align-content: center;
+   @include flexy($disp:flex, $dir:column, $wrap:wrap, $just:center);
 }

@@ -1,0 +1,4 @@
+.img--avatar{
+    @include roundy(12rem);
+    @include flexy($disp:flex, $dir:column, $wrap:wrap, $just:center);
+}
