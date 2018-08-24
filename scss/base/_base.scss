@@ -2,46 +2,49 @@
 //  Base Styles
 // ======================================
 
-* {
-    box-sizing: border-box;
-  }
+// * {
+//     box-sizing: border-box;
+//   }
   
-  body {
-    color: $text-color;
-    font-size: 1rem;
-    line-height: 1.5;
-    font-family: $font-stack-primary;
-    text-align: center;
+  // body {
+  //   color: $text-color;
+  //   font-size: 1rem;
+  //   line-height: 1.5;
+  //   font-family: $font-stack-primary;
+  //   text-align: center;
    
-    height: auto;
-    width: 100%;
-    margin: 1rem;
-    padding: 1rem;
-  }
+  //   height: auto;
+  //   width: 100%;
+  //   margin: 1rem;
+  //   padding: 1rem;
+  // }
   
-  h1,
-  h2 {
-    font-family: $font-stack-primary;
-  }
+  // h1,
+  // h2 {
+  //   font-family: $font-stack-primary;
+  // }
   
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
+  // ul {
+  //   list-style-type: none;
+  //   padding: 0;
+  //   margin: 0;
+  // }
 
-  p {
-    margin-bottom: 1.25em;
-  }
+  // p {
+  //   margin-bottom: 1.25em;
+  // }
   
-  a {
-    color: $primary-color;
-    text-decoration: none;
-    &:hover {
-      color: $primary-color;  
-    }
-  }
+  // a {
+  //   color: $primary-color;
+  //   text-decoration: none;
+  //   &:hover {
+  //     color: $primary-color;  
+  //   }
+  // }
+  // .headline--secondary {
+  //    @include flexy (flex, row, wrap, flex-start);
 
+  // }
 
  /* MEDIA QUERIES ---------------------------------- */
 

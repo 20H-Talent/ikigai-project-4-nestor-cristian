@@ -5,12 +5,13 @@
     &--avatar{
         @include roundy(12rem);
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     &--frame{
         @include flexy($disp:flex, $dir:column, $wrap:wrap, $just:center);
         height: auto;
         width: 100%;
-        margin: 0;
+        margin-bottom: 1rem;
         padding: 1rem;
         border: 2px solid black;
 

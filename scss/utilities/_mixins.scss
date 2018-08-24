@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // ======================================
 //  Mixins
 // ======================================
@@ -13,20 +12,12 @@
 }
 
 // Create a flex container
-=======
-
-//Create a Flex Container
->>>>>>> master
 @mixin flexy(
   $disp: flex,
   $dir: null,
   $wrap: null,
   $just: null,
-<<<<<<< HEAD
   $ali:null) {
-=======
-  $ali: null) {
->>>>>>> master
   display: $disp;
   flex-direction: $dir;
   flex-wrap: $wrap;
@@ -34,14 +25,6 @@
   align-items: $ali;
 }
 
-<<<<<<< HEAD
-// Rounded elements
-@mixin roundy($dim, $brdr: null) {
-  width: $dim;
-  height: $dim;
-  border: $brdr;
-  border-radius: 50%;
-=======
 //Rounded elements
 @mixin roundy($dim, $brdr:null) {
     width: $dim;
@@ -73,5 +56,4 @@
             @include style-box;
         }
     } 
->>>>>>> master
 }

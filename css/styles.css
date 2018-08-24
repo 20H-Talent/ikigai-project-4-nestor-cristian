@@ -1,36 +1,139 @@
-/*
-Error: Invalid CSS after ">>>>>>> master": expected "{", was ""
-        on line 9 of /Users/cristiandavid/curso/ikigai-project-4-nestor-cristian/scss/styles.scss
+@import url(normalize.css);
+/* MEDIA QUERIES ---------------------------------- */
+.btn--default {
+  background-color: #51ddfc;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+.btn--s success {
+  background-color: #63cc82;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+.btn--error {
+  background-color: #e4757a;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+.btn--warning {
+  background-color: #fd7856;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+.btn--info {
+  background-color: #927bc1;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
 
-4: <<<<<<< HEAD
-5: 
-6: // rama cristian
-7: =======
-8: >>>>>>> master
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.form input {
+  border-style: none;
+  border-bottom: 5px solid #58e1c1;
+  margin: 0.8rem auto;
+  padding: 15px 10px;
+  width: 80%;
+}
+.form .btn--default {
+  margin-top: 1rem;
+  width: 90%;
+  color: #fff;
+  font-size: 1rem;
+}
+.form .form__label--hidden {
+  display: none;
+}
+.form .headline--secondary {
+  align-self: flex-start;
+}
+.form legend {
+  font-weight: bold;
+}
 
-Backtrace:
-/Users/cristiandavid/curso/ikigai-project-4-nestor-cristian/scss/styles.scss:9
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \">>>>>>> master\": expected \"{\", was \"\"\A         on line 9 of /Users/cristiandavid/curso/ikigai-project-4-nestor-cristian/scss/styles.scss\A \A 4: <<<<<<< HEAD\A 5: \A 6: // rama cristian\A 7: =======\A 8: >>>>>>> master"; }
+div.grid__col--3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img--avatar {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.img--frame {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+nav {
+  margin-top: 40px;
+}
+nav ul {
+  padding: 0;
+  margin-top: 0;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+nav ul .nav__item {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 5px;
+}
+nav ul .nav__item a {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+  color: #5a5a5a;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+nav ul .nav__item a:hover,
+nav ul .nav__item a:focus {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+  background-color: #51ddfc;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */
