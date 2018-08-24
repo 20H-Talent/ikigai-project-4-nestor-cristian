@@ -1,0 +1,87 @@
+@import url(normalize.css);
+.btn--default {
+  background-color: #51ddfc;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+.btn--success {
+  background-color: #63cc82;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+.btn--error {
+  background-color: #e4757a;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+.btn--warning {
+  background-color: #fd7856;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+.btn--info {
+  background-color: #927bc1;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+
+div.grid__col--3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  margin-top: 40px;
+}
+nav ul {
+  padding: 0;
+  margin-top: 0;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+nav ul .nav__item {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 5px;
+}
+nav ul .nav__item a {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+  color: #5a5a5a;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+nav ul .nav__item a:hover,
+nav ul .nav__item a:focus {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+  background-color: #58e1c1;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */
