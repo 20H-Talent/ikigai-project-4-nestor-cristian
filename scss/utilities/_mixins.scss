@@ -1,5 +1,9 @@
+// ======================================
+//  Mixins
+// ======================================
+
 // Colors
-@mixin themes($map) {
+@mixin btn-color($map) {
     @each $theme, $color in $map {
       &--#{$theme} {
         background-color: $color;
@@ -12,11 +16,13 @@
   $disp: flex,
   $dir: null,
   $wrap: null,
-  $just: null) {
+  $just: null,
+  $ali:null) {
   display: $disp;
   flex-direction: $dir;
   flex-wrap: $wrap;
   justify-content: $just;
+  align-items: $ali;
 }
 
 // Rounded elements

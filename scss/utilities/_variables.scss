@@ -6,18 +6,19 @@
 
 $white: #fff;
 
-$color-primary: #51ddfc; // teal
-$color-primary-light: lighten($color-primary, 10%);
-
-$color-text: #818181;
+$primary-color: #51ddfc; // teal
+$primary-color-light: lighten($primary-color, 10%);
+$secondary-color: #58e1c1;
+$text-color: #818181;
+$nav-text-color:#5a5a5a;
 
 // Fonts
 $font-stack-primary: "Raleway", sans-serif;
 
 // Map
 // Theme colors
-$button-colors: (
-  "default": #51ddfc,
+$color-button: (
+  "default": #51ddfc,s
   "success": #63cc82,
   "error": #e4757a,
   "warning": #fd7856,

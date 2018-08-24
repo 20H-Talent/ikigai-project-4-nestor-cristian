@@ -1,3 +1,4 @@
 .btn {
- @include themes($button-colors);   
+  @include btn-color($color-button);
 }
+

@@ -1,3 +1,25 @@
+// ======================================
+//  Forms
+// ======================================
+
 .form {
    @include flexy($disp:flex, $dir:column, $wrap:wrap, $just:center);
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   align-items: center;
+}
+
+.form__input{
+  background-color: $secondary-color;
+  width: 80%;
+}
+.form__label--hidden{
+    margin-top: 1rem;
+}
+
+.form .btn--default {
+    margin-top: 1rem;
+    padding: 0.75em 1.5em;
+    border-radius: 0.35em;
+    width: 90%;
 }
