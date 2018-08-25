@@ -1,0 +1,35 @@
+.headline--secondary {
+    font-weight: normal;
+}
+
+.container {
+    font-family: $font-stack-primary;
+    color: $text-color;
+    .card{
+        margin: 6rem 0 4rem;
+        .headline--primary {
+            font-weight: bold;
+            color: $primary-color;
+            width: 70%;
+            line-height: 2.3rem;
+            margin-left: 1.3rem;
+        }
+        .link {
+            text-decoration: none;
+            font-weight: bold;
+            color: $secondary-color;
+        }
+        em {
+            font-style: italic;
+        }
+        .blockquote {
+            width: 70%;
+            height: 100%;
+            font-size: 1.2rem;
+            @extend %style-box;
+            border-left: 7px solid $primary-color;
+            padding:0 10px 0;
+        }
+    }
+    
+}
