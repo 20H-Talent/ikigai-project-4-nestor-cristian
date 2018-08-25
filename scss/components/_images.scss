@@ -10,10 +10,10 @@
     &--frame{
         @include flexy($disp:flex, $dir:column, $wrap:wrap, $just:center);
         height: auto;
-        width: 100%;
-        margin-bottom: 1rem;
+        width: 80%;
+        margin: 1rem auto;
         padding: 1rem;
-        border: 2px solid black;
+        border: 1px solid black;
 
     }
  }

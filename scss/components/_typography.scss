@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: $text-color;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: $font-stack-primary;
+  text-align: center; // en el momento que centramos todo ya nos va a obligar a encuadrar los headlines 2.
+
+ // height: auto;
+  // width: 100%;
+  // margin: 1rem;
+  // padding: 1rem;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+.headline--primary {
+  color: $secondary-color;
+}
+
+.blockquote {
+  border-left: 0.5rem solid $secondary-color;
+  font-size: 1rem;
+}
