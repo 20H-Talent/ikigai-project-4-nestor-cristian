@@ -8,27 +8,16 @@
     .card{
         margin: 6rem 0 4rem;
         .headline--primary {
-            font-weight: bold;
-            color: $primary-color;
-            width: 70%;
-            line-height: 2.3rem;
-            margin-left: 1.3rem;
+            @extend %p-hl-style;
         }
         .link {
-            text-decoration: none;
-            font-weight: bold;
-            color: $secondary-color;
+            @extend %link-style;
         }
         em {
             font-style: italic;
         }
         .blockquote {
-            width: 70%;
-            height: 100%;
-            font-size: 1.2rem;
-            @extend %style-box;
-            border-left: 7px solid $primary-color;
-            padding:0 10px 0;
+            @extend %blockquote;
         }
     }
     

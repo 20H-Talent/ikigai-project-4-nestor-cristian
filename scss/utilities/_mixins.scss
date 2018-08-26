@@ -21,6 +21,16 @@
     border-radius: 50%;
 }
 
+//Background buttons and grids
+@mixin btn-color($map) {
+    @each $theme, $color in $map {
+        &--#{$theme} {
+            background-color: $color;
+            @content;
+        }
+    } 
+}
+
 // //Layout
 // @mixin layout {
 //     width: 90%;
@@ -36,12 +46,3 @@
 //     resize: none; /* Text area only */
 // }
 
-//Background buttons and grids
-@mixin btn-color($map) {
-    @each $theme, $color in $map {
-        &--#{$theme} {
-            background-color: $color;
-            @extend %style-box;
-        }
-    } 
-}
