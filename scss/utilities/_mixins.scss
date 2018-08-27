@@ -24,7 +24,7 @@
 //Background buttons and grids
 @mixin btn-color($map) {
     @each $theme, $color in $map {
-        &--#{$theme} {
+        &--#{$theme}.theme__colors {
             background-color: $color;
             @content;
         }

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url(normalize.css);
-.container .card .blockquote, .btn--default, .btn--success, .btn--error, .btn--warning, .btn--info, nav ul .nav__item a, nav ul .nav__item a:hover,
+.container .card .blockquote, .btn--default.theme__colors, .btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors, .grid__row .grid__col--12.theme__colors, .grid__row .grid__col--6.theme__colors, .grid__row .grid__col--4.theme__colors, .grid__row .grid__col--3.theme__colors, .grid__row .grid__col--5.theme__colors, .grid__row .grid__col--7.theme__colors, .grid__row .grid__col--8.theme__colors, nav ul .nav__item a, nav ul .nav__item a:hover,
 nav ul .nav__item a:focus {
   padding: 15px 10px;
   border: none;
@@ -8,8 +8,8 @@ nav ul .nav__item a:focus {
   resize: none;
   /* Text area only */ }
 
-.btn--default, .btn--success, .btn--error, .btn--warning, .btn--info, nav ul {
-  width: 90%;
+.btn--default.theme__colors, .btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors, nav ul {
+  width: 100%;
   margin: 0 auto;
   text-align: center; }
 
@@ -32,31 +32,34 @@ nav ul .nav__item a:focus {
   border-left: 7px solid #58e1c1;
   padding: 0 10px 0; }
 
-.btn--default {
+.container {
+  padding: 0 40px; }
+
+.btn--default.theme__colors {
   background-color: #51ddfc;
   margin: 15px auto;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
-.btn--success {
+.btn--success.theme__colors {
   background-color: #63cc82;
   margin: 15px auto;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
-.btn--error {
+.btn--error.theme__colors {
   background-color: #e4757a;
   margin: 15px auto;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
-.btn--warning {
+.btn--warning.theme__colors {
   background-color: #fd7856;
   margin: 15px auto;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
-.btn--info {
+.btn--info.theme__colors {
   background-color: #927bc1;
   margin: 15px auto;
   color: #fff;
@@ -66,17 +69,45 @@ nav ul .nav__item a:focus {
 button {
   display: block; }
 
-div.grid__col--3 {
+.grid__row {
+  margin-top: 25px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
+  .grid__row .grid__col--12.theme__colors {
+    background-color: #80e8d1;
+    max-width: 100%;
+    margin: 3px 0; }
+  .grid__row .grid__col--6.theme__colors {
+    background-color: #3fabca;
+    max-width: 100%;
+    margin: 3px 0; }
+  .grid__row .grid__col--4.theme__colors {
+    background-color: #7ee6fd;
+    max-width: 100%;
+    margin: 3px 0; }
+  .grid__row .grid__col--3.theme__colors {
+    background-color: #deb2ee;
+    max-width: 100%;
+    margin: 3px 0; }
+  .grid__row .grid__col--5.theme__colors {
+    background-color: #88d9a0;
+    max-width: 100%;
+    margin: 3px 0; }
+  .grid__row .grid__col--7.theme__colors {
+    background-color: #ec9fa3;
+    max-width: 100%;
+    margin: 3px 0; }
+  .grid__row .grid__col--8.theme__colors {
+    background-color: #fd9f85;
+    max-width: 100%;
+    margin: 3px 0; }
 
 .img--logo {
   margin-top: 50px; }
 
 nav {
-  margin: 40px 0 100px; }
+  margin: 40px 0 0; }
   nav ul {
     padding: 0;
     margin-top: 0; }
@@ -95,7 +126,8 @@ nav {
         color: #fff; }
 
 .headline--secondary {
-  font-weight: normal; }
+  font-weight: normal;
+  margin: 0; }
 
 .container {
   font-family: "Open Sans", sans-serif;
