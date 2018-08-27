@@ -6,6 +6,10 @@
         color: $white;
         text-transform: uppercase;
         font-weight: bold;
+        @include breakpoint(768px) {
+            flex: 1;
+            margin: 2px;
+        }
     };
 }
 

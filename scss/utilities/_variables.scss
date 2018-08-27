@@ -10,6 +10,10 @@ $nav-text-color: #5a5a5a;
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 $font-stack-primary: 'Open Sans', sans-serif;;
 
+//Breakpoints
+$break-s: 768px;
+$brek-m: 769px;
+
 //
 //MAPS
 //
@@ -33,4 +37,3 @@ $color-grid: (
     '7': #ec9fa3,
     '8': #fd9f85,
 );
-

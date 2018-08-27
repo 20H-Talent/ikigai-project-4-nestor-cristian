@@ -31,18 +31,19 @@
     } 
 }
 
-// //Layout
-// @mixin layout {
-//     width: 90%;
-//     margin: 0 auto;
-//     text-align: center;
-// }
+//Calculate Col Width
+@mixin get-width {
+    @for $i from 1 through 12 {
+        &--#{$i} {
+            width: col-width($i);
+            display: flex;
+        }
+   }
+}
 
-// //Style buttons and grids
-// @mixin style-box {
-//     padding: 15px 10px;
-//     border: none;
-//     border-radius: 4px;
-//     resize: none; /* Text area only */
-// }
-
+//Media queries
+@mixin breakpoint($value) {
+    @media (min-width: $value){
+        @content;
+    }
+}

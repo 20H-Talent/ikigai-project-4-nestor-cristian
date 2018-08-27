@@ -27,7 +27,7 @@ nav ul .nav__item a:focus {
 
 .container .card .blockquote {
   width: 70%;
-  height: 100%;
+  height: auto;
   font-size: 1.2rem;
   border-left: 7px solid #58e1c1;
   padding: 0 10px 0; }
@@ -41,67 +41,129 @@ nav ul .nav__item a:focus {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
+  @media (min-width: 768px) {
+    .btn--default.theme__colors {
+      flex: 1;
+      margin: 2px; } }
 .btn--success.theme__colors {
   background-color: #63cc82;
   margin: 15px auto;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
+  @media (min-width: 768px) {
+    .btn--success.theme__colors {
+      flex: 1;
+      margin: 2px; } }
 .btn--error.theme__colors {
   background-color: #e4757a;
   margin: 15px auto;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
+  @media (min-width: 768px) {
+    .btn--error.theme__colors {
+      flex: 1;
+      margin: 2px; } }
 .btn--warning.theme__colors {
   background-color: #fd7856;
   margin: 15px auto;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
+  @media (min-width: 768px) {
+    .btn--warning.theme__colors {
+      flex: 1;
+      margin: 2px; } }
 .btn--info.theme__colors {
   background-color: #927bc1;
   margin: 15px auto;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold; }
+  @media (min-width: 768px) {
+    .btn--info.theme__colors {
+      flex: 1;
+      margin: 2px; } }
 
 button {
   display: block; }
 
 .grid__row {
-  margin-top: 25px;
+  margin: 25px 0;
   width: 100%;
   display: flex;
   flex-direction: column; }
+  @media (min-width: 768px) {
+    .grid__row {
+      flex-direction: row; } }
   .grid__row .grid__col--12.theme__colors {
     background-color: #80e8d1;
     max-width: 100%;
-    margin: 3px 0; }
+    margin: 3px; }
   .grid__row .grid__col--6.theme__colors {
     background-color: #3fabca;
     max-width: 100%;
-    margin: 3px 0; }
+    margin: 3px; }
   .grid__row .grid__col--4.theme__colors {
     background-color: #7ee6fd;
     max-width: 100%;
-    margin: 3px 0; }
+    margin: 3px; }
   .grid__row .grid__col--3.theme__colors {
     background-color: #deb2ee;
     max-width: 100%;
-    margin: 3px 0; }
+    margin: 3px; }
   .grid__row .grid__col--5.theme__colors {
     background-color: #88d9a0;
     max-width: 100%;
-    margin: 3px 0; }
+    margin: 3px; }
   .grid__row .grid__col--7.theme__colors {
     background-color: #ec9fa3;
     max-width: 100%;
-    margin: 3px 0; }
+    margin: 3px; }
   .grid__row .grid__col--8.theme__colors {
     background-color: #fd9f85;
     max-width: 100%;
-    margin: 3px 0; }
+    margin: 3px; }
+  .grid__row .grid__col--1 {
+    width: 8.3333333333%;
+    display: flex; }
+  .grid__row .grid__col--2 {
+    width: 16.6666666667%;
+    display: flex; }
+  .grid__row .grid__col--3 {
+    width: 25%;
+    display: flex; }
+  .grid__row .grid__col--4 {
+    width: 33.3333333333%;
+    display: flex; }
+  .grid__row .grid__col--5 {
+    width: 41.6666666667%;
+    display: flex; }
+  .grid__row .grid__col--6 {
+    width: 50%;
+    display: flex; }
+  .grid__row .grid__col--7 {
+    width: 58.3333333333%;
+    display: flex; }
+  .grid__row .grid__col--8 {
+    width: 66.6666666667%;
+    display: flex; }
+  .grid__row .grid__col--9 {
+    width: 75%;
+    display: flex; }
+  .grid__row .grid__col--10 {
+    width: 83.3333333333%;
+    display: flex; }
+  .grid__row .grid__col--11 {
+    width: 91.6666666667%;
+    display: flex; }
+  .grid__row .grid__col--12 {
+    width: 100%;
+    display: flex; }
+
+.grid__row > .grid__col--3 {
+  margin: 0 auto; }
 
 .img--logo {
   margin-top: 50px; }
