@@ -1,10 +1,16 @@
-//Colors
+// ======================================
+//  Variables
+// ======================================
+
+// Colors
+
 $white: #fff;
 
-$primary-color: #58e1c1;
-$secondary-color: #51ddfc;
+$primary-color: #51ddfc; // teal
+$primary-color-light: lighten($primary-color, 10%);
+$secondary-color: #58e1c1;
 $text-color: #818181;
-$nav-text-color: #5a5a5a;
+$nav-text-color:#5a5a5a;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -20,11 +26,11 @@ $brek-m: 769px;
 
 //Buttons
 $color-button: (
-    'default': #51ddfc,
-    'success': #63cc82,
-    'error': #e4757a,
-    'warning': #fd7856,
-    'info': #927bc1,
+  "default": #51ddfc,
+  "success": #63cc82,
+  "error": #e4757a,
+  "warning": #fd7856,
+  "info": #927bc1,
 );
 
 //Grids

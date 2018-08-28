@@ -1,0 +1,32 @@
+// ======================================
+//  Forms
+// ======================================
+
+.form {
+  @include flexy($disp: flex, $dir: column, $wrap: wrap, $just: center);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  input {
+    border-style: none;
+    border-bottom: 5px solid $secondary-color;
+    margin: 0.8rem auto;
+    padding: 15px 10px;
+    width: 80%;
+  }
+  .btn--default {
+    margin-top: 1rem;
+    width: 90%;
+    color: $white;
+    font-size: 1rem;
+  }
+  .form__label--hidden{
+      display: none;
+  }
+  .headline--secondary{
+    align-self: flex-start;
+  }
+  legend {
+    font-weight: bold;
+  }
+}

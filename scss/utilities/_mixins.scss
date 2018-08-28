@@ -1,11 +1,23 @@
+// ======================================
+//  Mixins
+// ======================================
 
-//Create a Flex Container
+// Colors
+@mixin btn-color($map) {
+    @each $theme, $color in $map {
+      &--#{$theme} {
+        background-color: $color;
+      }
+    } 
+}
+
+// Create a flex container
 @mixin flexy(
   $disp: flex,
   $dir: null,
   $wrap: null,
   $just: null,
-  $ali: null) {
+  $ali:null) {
   display: $disp;
   flex-direction: $dir;
   flex-wrap: $wrap;

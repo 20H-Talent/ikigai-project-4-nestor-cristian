@@ -1,0 +1,19 @@
+// ======================================
+//  Images
+// ======================================
+.img {  
+    &--avatar{
+        @include roundy(12rem);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    &--frame{
+        @include flexy($disp:flex, $dir:column, $wrap:wrap, $just:center);
+        height: auto;
+        width: 80%;
+        margin: 1rem auto;
+        padding: 1rem;
+        border: 1px solid black;
+
+    }
+ }
