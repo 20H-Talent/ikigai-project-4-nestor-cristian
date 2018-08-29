@@ -188,6 +188,9 @@ button {
       width: 100%;
       display: flex; } }
 
+.centered {
+  margin: 0 auto !important; }
+
 .img--avatar {
   width: 12rem;
   height: 12rem;

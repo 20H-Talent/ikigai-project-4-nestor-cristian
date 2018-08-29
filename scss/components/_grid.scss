@@ -17,6 +17,9 @@
         @include breakpoint(768px) {
             @include get-width;
         }
-       
     }
+}
+
+.centered {
+    margin: 0 auto !important;
 }
