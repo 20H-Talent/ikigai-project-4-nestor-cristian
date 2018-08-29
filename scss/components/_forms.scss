@@ -3,7 +3,7 @@
 // ======================================
 
 .form {
-  @include flexy($disp: flex, $dir: column, $wrap: wrap, $just: center);
+  @include flexy($disp: flex, $dir: column, $wrap: wrap);
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-items: center;
@@ -25,8 +25,5 @@
   }
   .headline--secondary{
     align-self: flex-start;
-  }
-  legend {
-    font-weight: bold;
   }
 }

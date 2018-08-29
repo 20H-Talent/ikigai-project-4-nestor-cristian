@@ -93,7 +93,6 @@ button {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-items: center; }
@@ -111,8 +110,6 @@ button {
     display: none; }
   .form .headline--secondary {
     align-self: flex-start; }
-  .form legend {
-    font-weight: bold; }
 
 .grid__row {
   margin: 25px 0;
@@ -268,7 +265,8 @@ nav {
     margin: 6rem 0 4rem; }
     @media (min-width: 768px) {
       .container .card {
-        margin: 2rem 0; } }
+        margin: 2rem 0;
+        padding-right: 3rem; } }
     .container .card em {
       font-style: italic; }
 

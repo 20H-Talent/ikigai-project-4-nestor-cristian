@@ -10,6 +10,7 @@
         margin: 6rem 0 4rem;
         @include breakpoint(768px) {
             margin: 2rem 0;
+            padding-right: 3rem;
         }
         .headline--primary {
             @extend %p-hl-style;
