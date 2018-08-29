@@ -4,11 +4,13 @@
 .img {  
     &--avatar{
         @include roundy(12rem);
+        display: block;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        margin: 1rem auto;
     }
     &--frame{
-        @include flexy($disp:flex, $dir:column, $wrap:wrap, $just:center);
+        display: block;
         height: auto;
         width: 80%;
         margin: 1rem auto;

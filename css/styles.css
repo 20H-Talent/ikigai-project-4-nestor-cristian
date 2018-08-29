@@ -192,14 +192,12 @@ button {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
+  display: block;
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin: 1rem auto; }
 .img--frame {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: block;
   height: auto;
   width: 80%;
   margin: 1rem auto;
