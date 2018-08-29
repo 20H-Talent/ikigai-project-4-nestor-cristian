@@ -34,6 +34,9 @@ nav ul .nav__item a:focus {
 
 .container {
   padding: 0 40px; }
+  @media (min-width: 768px) {
+    .container {
+      padding: 0 90px; } }
 
 .btn--default.theme__colors {
   background-color: #51ddfc;
