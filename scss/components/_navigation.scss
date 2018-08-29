@@ -1,17 +1,5 @@
 //Nav Items
 
-//Center logo
-.grid__row > .grid__col--3 {
-    margin:0 auto;
-}
-
-.img--logo {
-    margin-top:50px;
-    @include breakpoint(768px){
-        margin:0;
-    }
-}
-
 nav {
     margin:40px 0 0;
     @include breakpoint(768px) {

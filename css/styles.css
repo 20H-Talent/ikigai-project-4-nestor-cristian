@@ -192,6 +192,14 @@ button {
   .centered {
     margin: 0 auto !important; } }
 
+.grid__row > .grid__col--3 {
+  margin: 0 auto; }
+
+.img--logo {
+  margin-top: 50px; }
+  @media (min-width: 768px) {
+    .img--logo {
+      margin: 0; } }
 .img--avatar {
   width: 12rem;
   height: 12rem;
@@ -207,15 +215,6 @@ button {
   margin: 1rem auto;
   padding: 1rem;
   border: 1px solid black; }
-
-.grid__row > .grid__col--3 {
-  margin: 0 auto; }
-
-.img--logo {
-  margin-top: 50px; }
-  @media (min-width: 768px) {
-    .img--logo {
-      margin: 0; } }
 
 nav {
   margin: 40px 0 0; }
