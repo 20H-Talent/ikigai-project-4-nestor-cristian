@@ -200,7 +200,10 @@ button {
   @media (min-width: 768px) {
     .img--logo {
       margin: 0;
-      width: 100%; } }
+      max-width: 100%; } }
+  @media (min-width: 900px) {
+    .img--logo {
+      margin-left: 2rem; } }
 .img--avatar {
   width: 12rem;
   height: 12rem;
@@ -221,6 +224,9 @@ nav {
   @media (min-width: 768px) {
     nav {
       margin: 0; } }
+  @media (min-width: 900px) {
+    nav {
+      padding-right: 6rem; } }
   nav ul {
     padding: 0;
     margin-top: 0; }
@@ -271,5 +277,8 @@ nav {
         padding-right: 3rem; } }
     .container .card em {
       font-style: italic; }
+
+.grid__col--12 > .card {
+  padding: 0; }
 
 /*# sourceMappingURL=styles.css.map */

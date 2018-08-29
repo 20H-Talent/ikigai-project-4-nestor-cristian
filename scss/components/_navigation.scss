@@ -5,6 +5,9 @@ nav {
     @include breakpoint(768px) {
         margin:0;
     }
+    @include breakpoint(900px) {
+        padding-right: 6rem;
+    }
     ul {
         padding:0;
         margin-top:0;
