@@ -43,8 +43,8 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--default.theme__colors {
-      width: calc(20% - 4px);
-      margin: 2px; } }
+      width: calc(20% - 30px);
+      margin: 15px; } }
 .btn--success.theme__colors {
   background-color: #63cc82;
   margin: 15px auto;
@@ -53,8 +53,8 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--success.theme__colors {
-      width: calc(20% - 4px);
-      margin: 2px; } }
+      width: calc(20% - 30px);
+      margin: 15px; } }
 .btn--error.theme__colors {
   background-color: #e4757a;
   margin: 15px auto;
@@ -63,8 +63,8 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--error.theme__colors {
-      width: calc(20% - 4px);
-      margin: 2px; } }
+      width: calc(20% - 30px);
+      margin: 15px; } }
 .btn--warning.theme__colors {
   background-color: #fd7856;
   margin: 15px auto;
@@ -73,8 +73,8 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--warning.theme__colors {
-      width: calc(20% - 4px);
-      margin: 2px; } }
+      width: calc(20% - 30px);
+      margin: 15px; } }
 .btn--info.theme__colors {
   background-color: #927bc1;
   margin: 15px auto;
@@ -83,8 +83,8 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--info.theme__colors {
-      width: calc(20% - 4px);
-      margin: 2px; } }
+      width: calc(20% - 30px);
+      margin: 15px; } }
 
 button {
   display: block; }
