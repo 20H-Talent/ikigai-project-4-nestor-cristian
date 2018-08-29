@@ -197,13 +197,13 @@ button {
   height: 12rem;
   border-radius: 50%;
   display: block;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin: 1rem auto; }
+  margin: 1rem auto;
+  padding: 1rem; }
 .img--frame {
   display: block;
   height: auto;
   width: 80%;
+  height: 12rem;
   margin: 1rem auto;
   padding: 1rem;
   border: 1px solid black; }
