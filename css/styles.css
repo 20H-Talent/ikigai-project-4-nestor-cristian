@@ -266,6 +266,9 @@ nav {
   color: #818181; }
   .container .card {
     margin: 6rem 0 4rem; }
+    @media (min-width: 768px) {
+      .container .card {
+        margin: 2rem 0; } }
     .container .card em {
       font-style: italic; }
 
