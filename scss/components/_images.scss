@@ -13,6 +13,7 @@
         margin-top:50px;
         @include breakpoint(768px){
             margin:0;
+            width: 100%;
         }
     
     }  
@@ -25,9 +26,8 @@
     &--frame{
         display: block;
         height: auto;
-        width: 80%;
-        height: 12rem;
-        margin: 1rem auto;
+        max-width: 90%;
+        margin: 0 auto;
         padding: 1rem;
         border: 1px solid black;
 
