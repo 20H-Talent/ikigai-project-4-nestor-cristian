@@ -213,9 +213,15 @@ button {
 
 .img--logo {
   margin-top: 50px; }
+  @media (min-width: 768px) {
+    .img--logo {
+      margin: 0; } }
 
 nav {
   margin: 40px 0 0; }
+  @media (min-width: 768px) {
+    nav {
+      margin: 0; } }
   nav ul {
     padding: 0;
     margin-top: 0; }
@@ -248,8 +254,8 @@ nav {
 
 @media (min-width: 768px) {
   .grid__col--9 {
-    display: flex;
-    justify-content: flex-end; } }
+    justify-content: flex-end;
+    align-items: center; } }
 
 .headline--secondary {
   font-weight: normal;
