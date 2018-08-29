@@ -8,7 +8,7 @@ nav ul .nav__item a:focus {
   resize: none;
   /* Text area only */ }
 
-.btn--default.theme__colors, .btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors, nav ul {
+.btn--default.theme__colors, .btn--success.theme__colors, .btn--error.theme__colors, .btn--warning.theme__colors, .btn--info.theme__colors, .form .btn--default[type=submit], nav ul {
   width: 100%;
   margin: 0 auto;
   text-align: center; }
@@ -43,7 +43,7 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--default.theme__colors {
-      flex: 1;
+      width: calc(20% - 4px);
       margin: 2px; } }
 .btn--success.theme__colors {
   background-color: #63cc82;
@@ -53,7 +53,7 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--success.theme__colors {
-      flex: 1;
+      width: calc(20% - 4px);
       margin: 2px; } }
 .btn--error.theme__colors {
   background-color: #e4757a;
@@ -63,7 +63,7 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--error.theme__colors {
-      flex: 1;
+      width: calc(20% - 4px);
       margin: 2px; } }
 .btn--warning.theme__colors {
   background-color: #fd7856;
@@ -73,7 +73,7 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--warning.theme__colors {
-      flex: 1;
+      width: calc(20% - 4px);
       margin: 2px; } }
 .btn--info.theme__colors {
   background-color: #927bc1;
@@ -83,7 +83,7 @@ nav ul .nav__item a:focus {
   font-weight: bold; }
   @media (min-width: 768px) {
     .btn--info.theme__colors {
-      flex: 1;
+      width: calc(20% - 4px);
       margin: 2px; } }
 
 button {
@@ -103,7 +103,7 @@ button {
     margin: 0.8rem auto;
     padding: 15px 10px;
     width: 80%; }
-  .form .btn--default {
+  .form .btn--default[type=submit] {
     margin-top: 1rem;
     color: #fff;
     font-size: 1rem; }
@@ -188,8 +188,9 @@ button {
       width: 100%;
       display: flex; } }
 
-.centered {
-  margin: 0 auto !important; }
+@media (min-width: 768px) {
+  .centered {
+    margin: 0 auto !important; } }
 
 .img--avatar {
   width: 12rem;
