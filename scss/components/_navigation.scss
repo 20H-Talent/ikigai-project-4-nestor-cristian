@@ -43,7 +43,7 @@ nav {
             a:hover,
             a:focus {
                 @extend %style-box;
-                background-color: $primary-color;
+                background-color: $secondary-color;
                 color: $white;
                 @include breakpoint(768px){
                     padding: 7px;

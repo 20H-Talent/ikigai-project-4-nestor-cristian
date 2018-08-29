@@ -16,11 +16,11 @@ nav ul .nav__item a:focus {
 .container .card .link {
   text-decoration: none;
   font-weight: bold;
-  color: #58e1c1; }
+  color: #51ddfc; }
 
 .container .card .headline--primary {
   font-weight: bold;
-  color: #51ddfc;
+  color: #58e1c1;
   width: 70%;
   line-height: 2.3rem;
   margin-left: 1.3rem; }
@@ -29,7 +29,7 @@ nav ul .nav__item a:focus {
   width: 70%;
   height: auto;
   font-size: 1.2rem;
-  border-left: 7px solid #51ddfc;
+  border-left: 7px solid #58e1c1;
   padding: 0 10px 0; }
 
 .container {
@@ -245,7 +245,7 @@ nav {
             padding: 7px; } }
       nav ul .nav__item a:hover,
       nav ul .nav__item a:focus {
-        background-color: #51ddfc;
+        background-color: #58e1c1;
         color: #fff; }
         @media (min-width: 768px) {
           nav ul .nav__item a:hover,

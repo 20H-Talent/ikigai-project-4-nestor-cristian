@@ -17,13 +17,13 @@
 %link-style {
     text-decoration: none;
     font-weight: bold;
-    color: $secondary-color;
+    color: $primary-color;
 }
 
 //Headlines
 %p-hl-style {
     font-weight: bold;
-    color: $primary-color;
+    color: $secondary-color;
     width: 70%;
     line-height: 2.3rem;
     margin-left: 1.3rem;
@@ -35,6 +35,6 @@
     height: auto;
     font-size: 1.2rem;
     @extend %style-box;
-    border-left: 7px solid $primary-color;
+    border-left: 7px solid $secondary-color;
     padding:0 10px 0;
 }
